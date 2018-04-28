@@ -146,11 +146,8 @@ a:link {
     font-size: 12px;
     width: 100%;    
     bottom:0;
-    LEFT:0;
+    left:0;
 }
-
-
-
 
 #right {
 
@@ -163,9 +160,10 @@ a:link {
     height: 170px;
     position: relative;
     float:left;
-    margin:30px;
+    margin:30px;   
     
  }
+
  .tag {
     float: left;
     position: absolute;
@@ -173,8 +171,7 @@ a:link {
     height:40px;
     left:0px;
     bottom: 0px;
-    z-index: 1000;
-    background-color: #4aaaa5;
+   background-color: #4aaaa5;
     padding: 5px;
     color: #FFFFFF;
     font-weight: bold;
@@ -233,11 +230,11 @@ a:link {
        }
 
        .main-section{
+        background-color: #ffffff;
         width:90%;
         height:auto;
-        margin:30px auto;
-        margin-top:50px;
-        margin-top:200px;
+       
+         margin-top:200px;
         
 
        }
@@ -286,7 +283,36 @@ a:link {
             
         }
 
+
+        
+
+        .container{
+            height: auto;
+        }
+
+        .input{
+
+            width:90%;
+            
+
+
+         }
+
+        #message {
+
+            width:87%;
+            
+        }
+
+       .submit{
+
+        padding: 1px 25px;
+        margin-bottom:15px;
+
+       }
+
         .footer {
+            
             width:100;
             float:left;
 
@@ -294,89 +320,104 @@ a:link {
         }
 
 
+        #right {
+
+            float:right;
+        }
+
+        .container-portfolio {
+            background-color: #DDDDDD;
+            width: 90%;
+            height: auto;
+            position: relative;
+            float:left;
+            margin:30px;
+            z-index: -5000;
+            
+         }
+         .tag {
+            float: left;
+            position: absolute;
+            width:100%;
+            height:40px;
+            left:0px;
+            bottom: 0px;
+            background-color: #4aaaa5;
+            padding: 5px;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align:center;
+         }
+         
+         .portfolio-img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+
+         }
+         
+
+
+
       }
 
-
-      /*
+    /*
       @media screen and (max-width: 768px) {
 
-        body{
-         
+        body{         
          width:100%;
          margin:0 auto;
-         height: 100%;
- 
-        }
- 
+         height: 100%; 
+        } 
         .header{
             width:100%;
-            float:left;
-            clear: both;
-            margin-bottom:50px;
-            
+            margin-bottom:50px;                   
         }
+
         .top-main{
             width: 100%;
-            float:left;
-            clear: right;
-            
-            
+            float:right;
+            clear: right;        
         }
- 
-        .logo{
-            width:100%;
-            float:left;
-            clear: right;
- 
-        }
- 
-        .menu{
-         width:100%;
-         float:left;
-         clear: right;
-         text-align: center;
-         background-color: #FFFFFF;
          
-        }
- 
         .main-section{
          width:90%;
          height:auto;
          margin:30px auto;
-         margin-top:50px;
-         
- 
+         margin-top:150px;
+        
         }
  
         .title-page{
-            width:100%;
-         
-            text-align: left;
-         
+            width:100%;         
+            text-align: left;         
         }
  
         .pic{
-            width:100%;
+            width:50%;
+            float:left;
             
- 
         }
  
         .profile-img{
          display: block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 50%;
+         margin-left: 0;
+         margin-right: 0;         
+         width: 75%;
          height: auto;
+         
         }
  
          #text{
  
-             width:100%;
+             width:50%;
              margin: 0 auto;
-             float:none;
+             float: right;
              clear:both;            
              text-align:justify;
- 
+             margin-top:-264px;
  
          }
  
@@ -386,18 +427,258 @@ a:link {
              margin:0 auto;
              float:none;
              clear:both;
-             text-align:justify;
-             
-             
+             text-align:justify;             
          }
  
          .footer {
+             
              width:100;
-             float:left;
+             float:left; 
+         }
  
+ 
+
+         .input{
+            padding:8px;
+            display:block;
+            border:none;
+            border-bottom:1px solid #ccc;
+            width:87%;
+        }
+        
+        .border{
+            border:1px solid #ccc!important
+        }
+        
+        .container{
+            height: auto;
+        }
+
+        .input{
+
+            width:90%;
+            
+
+
+         }
+
+        #message {
+
+            width:87%;
+            
+        }
+
+       .submit{
+
+        padding: 1px 25px;
+        margin-bottom:15px;
+
+       }
+
+     
+
+        }
+
+
+        #right {
+
+            float:right;
+        }
+
+        .container-portfolio {
+            background-color: #DDDDDD;
+            width: 40%;
+            height: auto;
+            position: relative;
+            float:left;
+            margin:20px;
+            z-index: -5000;
+            
+         }
+         .tag {
+            
+            width:99%;
+            height:40px;
+            left:0px;
+            bottom: 0px;
+            background-color: #4aaaa5;
+            padding: 5px;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align:center;
+         }
+         
+         .portfolio-img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+
+         }
+         
+         
+
+
+       }
+       
+
+       @media screen and (max-width: 980px) {
+
+        body{         
+         width:100%;
+         margin:0 auto;
+         height: 100%; 
+        } 
+        .header{
+            width:100%;
+            margin-bottom:50px;                   
+        }
+
+        .top-main{
+            width: 100%;
+            float:right;
+            clear: right;        
+        }
+         
+        
+        .main-section{
+         width:100%;
+         height:auto;
+         float: left;
+         margin:30px;
+         margin-top:150px;
+        
+        }
+ 
+        .title-page{
+            width:100%;         
+            text-align: left;         
+        }
+ 
+        .pic{
+            width:50%;
+            float:left;
+            
+        }
+ 
+        .profile-img{
+         display: block;
+         margin-left: 0;
+         margin-right: 0;         
+         width: 75%;
+         height: auto;
+         
+        }
+ 
+         #text{
+ 
+             width:50%;
+             margin: 0 auto;
+             float: right;
+             clear:both;            
+             text-align:justify;
+             margin-top:-264px;
  
          }
  
+         #text2{
+ 
+             width:100%;
+             margin:0 auto;
+             float:none;
+             clear:both;
+             text-align:justify;             
+         }
+ 
+         .footer {
+             
+            width:100;
+             float:left; 
+         }
+ 
+
+         .input{
+            padding:8px;
+            display:block;
+            border:none;
+            border-bottom:1px solid #ccc;
+            width:87%;
+        }
+        
+        .border{
+            border:1px solid #ccc!important
+        }
+        
+        .container{
+            height: auto;
+        }
+
+        .input{
+
+            width:90%;
+            
+
+
+         }
+
+        #message {
+
+            width:87%;
+            
+        }
+
+       .submit{
+
+        padding: 1px 25px;
+        margin-bottom:15px;
+
+       }
+
+     
+
+        }
+
+
+        #right {
+
+            float:right;
+        }
+
+        .container-portfolio {
+            background-color: #DDDDDD;
+            width: 23%;
+            height: auto;
+            position: relative;
+            float:left;
+            margin:20px;
+            z-index: 5000;
+            
+            
+         }
+         .tag {
+            
+            width:99%;
+            height:20px;
+            left:0px;
+            bottom: 0px;
+            background-color: #4aaaa5;
+            padding: 5px;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align:center;
+         }
+         
+         .portfolio-img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+
+         }
+
+         
  
        }
        */
