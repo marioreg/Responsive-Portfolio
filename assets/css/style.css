@@ -13,7 +13,7 @@ top:0;
 left:0;
 width:100%;
 position:fixed;
-z-index: 2000;
+
 }
 
 .top-main{    
@@ -188,5 +188,216 @@ a:link {
     #row3 {
     clear: left;
     }
+  
+
+      @media screen and (max-width: 640px){
+
+       body{
+        
+        width:100%;
+        margin:0 auto;
+        height: 100%;
+
+       }
+
+       .header{
+           width:100%;
+           float:left;
+           clear: both;
+           margin-bottom:50px;
+           
+       }
+       .top-main{
+           width: 100%;
+           float:left;
+           clear: right;
+           
+           
+           
+       }
+
+       .logo{
+           width:100%;
+           float:left;
+           clear: right;
+
+       }
+
+       .menu{
+        width:100%;
+        float:left;
+        clear: right;
+        text-align: center;
+        background-color: #FFFFFF;
+        
+       }
+
+       .main-section{
+        width:90%;
+        height:auto;
+        margin:30px auto;
+        margin-top:50px;
+        margin-top:200px;
+        
+
+       }
+
+       .title-page{
+           width:100%;
+           
+           text-align: left;
+        
+       }
+
+       .pic{
+           width:100%;
+           margin-bottom: 20px;
+           
+
+       }
+
+       .profile-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+       }
+
+        #text{
+
+            width:100%;
+            margin: 0 auto;
+            float:none;
+            clear:both;            
+            text-align:justify;
+
+
+        }
+
+        #text2{
+
+            width:100%;
+            margin:0 auto;
+            float:none;
+            clear:both;
+            text-align:justify;
+            
+            
+        }
+
+        .footer {
+            width:100;
+            float:left;
+
+
+        }
+
+
+      }
+
+
+      /*
+      @media screen and (max-width: 768px) {
+
+        body{
+         
+         width:100%;
+         margin:0 auto;
+         height: 100%;
+ 
+        }
+ 
+        .header{
+            width:100%;
+            float:left;
+            clear: both;
+            margin-bottom:50px;
+            
+        }
+        .top-main{
+            width: 100%;
+            float:left;
+            clear: right;
+            
+            
+        }
+ 
+        .logo{
+            width:100%;
+            float:left;
+            clear: right;
+ 
+        }
+ 
+        .menu{
+         width:100%;
+         float:left;
+         clear: right;
+         text-align: center;
+         background-color: #FFFFFF;
+         
+        }
+ 
+        .main-section{
+         width:90%;
+         height:auto;
+         margin:30px auto;
+         margin-top:50px;
+         
+ 
+        }
+ 
+        .title-page{
+            width:100%;
+         
+            text-align: left;
+         
+        }
+ 
+        .pic{
+            width:100%;
+            
+ 
+        }
+ 
+        .profile-img{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+         height: auto;
+        }
+ 
+         #text{
+ 
+             width:100%;
+             margin: 0 auto;
+             float:none;
+             clear:both;            
+             text-align:justify;
  
  
+         }
+ 
+         #text2{
+ 
+             width:100%;
+             margin:0 auto;
+             float:none;
+             clear:both;
+             text-align:justify;
+             
+             
+         }
+ 
+         .footer {
+             width:100;
+             float:left;
+ 
+ 
+         }
+ 
+ 
+       }
+       */
